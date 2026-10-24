@@ -1,0 +1,70 @@
+.promo-banner {
+  width: 100%;
+  min-height: 200px;
+  background: var(--bg-gradient-promo-banner);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: clamp(50px, 10vw, 190px);
+}
+.promo-banner__img-wrapper {
+  max-width: 988px;
+  width: 100%;
+}
+.promo-banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.promo-banner__text-content {
+  max-width: 666px;
+  padding-top: clamp(50px, 16vw, 128px);
+  margin-bottom: 50px;
+}
+.promo-banner__title {
+  font-weight: 900;
+  font-size: clamp(40px, 6vw, 111px);
+  line-height: 123%;
+  margin-bottom: clamp(23px, 4vw, 33px);
+  text-transform: uppercase;
+  transform: rotate(-2deg);
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.promo-banner__bg-white {
+  display: inline-block;
+  width: clamp(200px, 36vw, 541px);
+  min-height: 50px;
+  background-color: var(--secondary-color);
+  padding-left: 15px;
+}
+
+.promo-banner__description {
+  max-width: 643px;
+  font-weight: 500;
+  font-size: clamp(16px, 4vw, 36px);
+  line-height: 145%;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+  margin-bottom: clamp(20px, 4vw, 40px);
+}
+.promo-banner__conditions {
+  max-width: 480px;
+  font-weight: 500;
+  font-size: clamp(16px, 4vw, 36px);
+  line-height: 145%;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+  margin-bottom: clamp(25px, 4vw, 51px);
+}
+.promo-banner__date {
+  font-weight: 700;
+}
+.promo-banner__btn {
+  width: clamp(120px, 15vw, 265px);
+  min-height: clamp(48px, 15vw, 95px);
+  font-weight: 600;
+  font-size: clamp(15px, 2vw, 27px);
+  text-transform: uppercase;
+}

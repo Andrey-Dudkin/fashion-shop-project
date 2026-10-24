@@ -1,0 +1,16 @@
+.brands {
+  width: 100%;
+  min-height: 186px;
+  background-color: var(--bg-color-brands);
+  margin-bottom: clamp(50px, 6vw, 69px);
+}
+
+.brands__container {
+  min-height: 186px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(15px, 2vw, 30px);
+  flex-wrap: wrap;
+  padding: 15px 0;
+}

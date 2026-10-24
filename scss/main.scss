@@ -1,0 +1,19 @@
+// * base
+@import './base/_variable.scss';
+@import './base/_fonts.scss';
+@import './base/_reset.scss';
+@import './base/_base.scss';
+
+// * sections
+@import './blocks/_header.scss';
+@import './blocks/_hero-banner.scss';
+@import './blocks/_brands.scss';
+@import './blocks/_novelties.scss';
+@import './blocks/_promo-banner.scss';
+@import './blocks/_favorites.scss';
+@import './blocks/_download-app.scss';
+@import './blocks/_subscribe.scss';
+@import './blocks/_footer.scss';
+
+// * media
+@import './_media.scss';

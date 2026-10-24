@@ -1,0 +1,103 @@
+@media (max-width: 1661px) {
+  // * promo-banner
+  .promo-banner {
+    background: var(--bg-gradient-promo-banner-mobile);
+  }
+  .promo-banner__text-content {
+    margin-bottom: 23px;
+  }
+  .promo-banner__img-wrapper {
+    max-width: 100%;
+    order: 2;
+  }
+}
+@media (max-width: 1025px) {
+  // *header
+  .burger-menu {
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    z-index: 3;
+  }
+  .logo--mobile {
+    display: flex;
+  }
+  .navbar-navigation {
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    z-index: 2;
+    background-color: var(--secondary-color);
+    padding: 15px 0;
+    transition: top 0.4s ease;
+  }
+  .menu {
+    margin-left: 0;
+  }
+  .menu__list {
+    flex-direction: column;
+  }
+  .navbar-navigation--opem {
+    transition: top 0.4s ease;
+    top: 0;
+  }
+
+  // *footer
+  .footer__container {
+    justify-content: center;
+  }
+  .footer__info {
+    text-align: center;
+  }
+  .social {
+    justify-content: center;
+  }
+  .footer-menu {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  // * hero-banner
+  .hero-banner {
+    min-height: auto;
+  }
+  .hero-banner__container {
+    min-height: auto;
+  }
+
+  // * brands
+  .brands__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .brands__img {
+    width: 110px;
+    height: auto;
+  }
+
+  // *favorites
+  .favorites__title::after {
+    right: auto;
+  }
+
+  // * download app
+  .download-app__container {
+    justify-content: center;
+  }
+
+  // *subscribe
+  .subscribe-forma {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subscribe-forma__email {
+    max-width: 100%;
+  }
+  .subscribe-forma__btn {
+    width: 100%;
+  }
+}

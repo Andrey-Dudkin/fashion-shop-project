@@ -1,0 +1,29 @@
+.novelties {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: clamp(50px, 10vw, 190px);
+}
+.novelties__title {
+  display: inline-block;
+  position: relative;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 104%;
+  text-transform: uppercase;
+  margin-bottom: clamp(50px, 4vw, 100px);
+  &::after {
+    content: '';
+    display: block;
+    width: 186px;
+    height: 35px;
+    background: url('../img/images/title-decor.svg') no-repeat;
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    z-index: -1;
+  }
+}
+.novelties__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: clamp(30px, 6vw, 90px);
+}

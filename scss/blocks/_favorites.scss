@@ -1,0 +1,29 @@
+.favorites {
+  margin-bottom: clamp(50px, 10vw, 220px);
+}
+.favorites__title {
+  position: relative;
+  display: inline-block;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 104%;
+  margin-bottom: clamp(50px, 4vw, 104px);
+  &::after {
+    content: '';
+    display: block;
+    width: 186px;
+    height: 35px;
+    background: url('../img/images/title-decor-02.svg') no-repeat;
+    position: absolute;
+    right: 7px;
+    bottom: -14px;
+    z-index: -1;
+  }
+}
+.favorites__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: clamp(15px, 6vw, 47px);
+}
+.favorites__card-link {
+  max-width: 100%;
+}
