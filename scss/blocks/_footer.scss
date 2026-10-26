@@ -91,14 +91,14 @@
   max-width: 890px;
   width: 100%;
   display: flex;
-  gap: 50px;
+  gap: clamp(25px, 4vw, 50px);
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .footer-menu__column {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: clamp(16px, 2vw, 32px);
 }
 .footer-menu__title {
   font-size: clamp(16px, 4vw, 24px);
@@ -109,12 +109,12 @@
 .footer-menu__list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: clamp(15px, 2vw, 32px);
 }
 .footer-menu__link {
   display: inline-block;
   font-size: clamp(16px, 4vw, 24px);
-  line-height: 167%;
+  line-height: clamp(120%, 4vw, 167%);
   letter-spacing: 0.02em;
   color: var(--footer-color-text);
   border: var(--default-border);
